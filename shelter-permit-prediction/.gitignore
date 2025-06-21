@@ -1,0 +1,42 @@
+# Byte-compiled / cache files
+__pycache__/
+*.py[cod]
+*.so
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Environment folders
+venv/
+env/
+.venv/
+
+# VS Code settings
+.vscode/
+
+# Data files
+data/raw/
+data/processed/
+*.sqlite
+*.db
+
+# Credentials and tokens
+.env
+*.key
+*.pem
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Notebook output
+*.log
+*.out
+*.bak
+
+# Python packaging
+*.egg
+*.egg-info/
+dist/
+build/
+*.tar.gz
