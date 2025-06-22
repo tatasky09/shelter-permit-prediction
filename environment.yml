@@ -1,0 +1,28 @@
+name: seattle-gentrification
+channels:
+  - conda-forge
+  - defaults
+
+dependencies:
+  - python=3.10
+  - pandas
+  - geopandas
+  - matplotlib
+  - seaborn
+  - shapely
+  - scikit-learn
+  - xgboost
+  - jupyterlab
+  - ipykernel
+  - requests
+  - geopy
+  - sodapy
+  - fiona
+  - pyproj
+  - folium
+  - jinja2
+  - pip
+  - pip:
+      - shap  # optional: for model explainability
+      - pyspark  # optional: for distributed computing
+      - findspark  # optional:e for Spark integration
